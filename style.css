@@ -1,0 +1,8 @@
+html,body{height: 100%; margin: 0}
+body{font-family: Inter, system-ui, Segoe UI, Arial, sans-serif; background:#8ed1ff; overflow: hidden}
+canvas{display: block; width: 100%; height: 100%}
+.controls{position: fixed; left: 12px; top: 12px; background: rgba(255,255,255,0.88); padding: 10px 12px;border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); z-index:10}
+.controls label{display: inline-block; margin-right: 10px; font-size: 14px; color: #07304a}
+.controls input[type=range]{vertical-align: middle}
+.controls input[type=number]{width: 64px}
+.controls button{margin-left: 6px; padding: 6px 8px; border-radius: 6px; border: 1px solid rgba(0,0,0,0.08); background: white; cursor: pointer}
