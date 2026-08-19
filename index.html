@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="The blahajs do be flying.">
+	<meta name="author" content="PianoMan0">
+	<meta name="keywords" content="blahaj, flying, animation, javascript">
+	<link rel="icon" type="image/png" href="blahaj.png">
+	<title>Flying Blahajs</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="controls" aria-hidden="false">
+		<label>Count <input id="count" type="number" min="1" max="20" value="3"></label>
+		<label>Speed <input id="speed" type="range" min="0.1" max="3" step="0.1" value="1"></label>
+		<label>Amplitude <input id="amp" type="range" min="10" max="200" value="60"></label>
+		<button id="toggleImage">Toggle image source</button>
+	</div>
+	<canvas id="c" aria-label="Flying Blahajs animation"></canvas>
+	<script src="script.js"></script>
+</body>
+</html>
